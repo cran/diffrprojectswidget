@@ -1,0 +1,99 @@
+.dp_table table
+{
+  border-collapse: collapse;
+  table-layout:fixed;
+}
+
+.dp_table table th, .dp_table table td
+{
+  padding: 3px;
+  border-top: 1px  solid #E0E0E0;
+  min-width: 15px;
+  max-width: 250px;
+}
+
+.dp_table tbody tr:nth-child(2n).no-change {
+    background-color: #F7F7F7;
+}
+
+.dp_table .insertion
+{
+ background-color: #b2e7c9;
+}
+
+.dp_table .deletion
+{
+  background-color: #ff9d94;
+}
+
+.dp_table .change
+{
+  background-color: #ffde99;
+}
+
+
+.dp_table TR:hover {
+  background: #CCD9E8 !important;
+  background-color: #CCD9E8 !important;
+}
+
+.dp_table TR {
+  font-family: Arial, Helvetica, Times, Helvetica, sans-serif;
+  font-size: 9pt;
+  font-style: normal;
+  padding: 0 0
+}
+
+.dp_table .firstline {
+color: #FFFFFF ;
+  background: #000000 ;
+  text-align: center ;
+  font-weight: bold;
+}
+
+.dp_table .ListBackTitle{
+color: #FFFFFF;
+  background: #000000;
+  text-align: left;
+  font-weight: bold ;
+}
+
+.dp_table a:link {
+  color: DarkOrange;
+  text-decoration: none;
+}
+
+.dp_table a:visited {
+  color: DarkOrange;
+  text-decoration: none;
+}
+
+.dp_table pre {
+  white-space: pre;
+  margin: 2px ;
+}
+
+.dp_vis_tooltip {
+  background: #000000;
+  color: #fff;
+  padding: 5px;
+  border-radius: 2px;
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size: 9pt;
+  white-space: pre-line;
+}
+
+/*
+.dp_vis_tooltip:after {
+  box-sizing: border-box;
+  display: inline;
+  font-size: 10px;
+  width: 100%;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.8);
+  content: "\25BC";
+  position: absolute;
+  text-align: center;
+}
+*/
+
